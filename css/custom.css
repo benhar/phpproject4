@@ -1,0 +1,28 @@
+button a{
+	color: #28a745;
+}
+button a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.slider-active .owl-nav div {
+  background: #fff none repeat scroll 0 0;
+  height: 40px;
+  line-height: 40px;
+  left: 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  overflow: hidden;
+}
+.slider-active .owl-nav .owl-next{
+	left: auto;
+	right: 20px;
+}
+.form-control{
+	border:0px none;
+	border-radius: 0px;
+	border-bottom: 1px solid #19a15f;
+}

@@ -1,0 +1,254 @@
+/* -----------------------------------------
+	Template name : Auto
+	Author : Monzur Alam
+	Version :1.0
+	; 
+-------------------------------------------*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+  background-image: url(../images/bg.jpg);
+}
+.clear{
+	clear: both;
+}
+.fix{
+	overflow: hidden;
+}
+.under{
+	border-bottom: 4px solid #19a15f;
+	width: 25%;
+}
+/* ==============================================
+================= slider area ===================
+=================================================*/
+.slider-area{
+	position: relative;
+}
+/* ===============================================
+============== service area start here =============
+==================================================*/
+.service{
+	padding: 50px 0px;
+}
+.service-one{}
+.service-one h3 {
+  
+}
+/*============== service area stop here ===============*/
+/* ===============================================
+============== login area start here =============
+==================================================*/
+.login-area {
+  padding: 50px 0;
+}
+#login{
+  transform: translateY(60%);
+}
+#form-control{
+  background-color: transparent;
+}
+.card{
+	border-color: #19a15f;
+}
+.card-header{
+	background-color: #19a15f;
+	color: #fff;
+}
+.card-body{
+	padding: 50px 0px;
+}
+.card-body button{
+	background-color: #19a15f;
+}
+.card-body button:hover{
+	background-color: #ec4445;
+	color: #19a15f;
+}
+.card-body small a{
+	color: #19a15f;
+}
+.card-body small a:hover{
+	text-decoration: none;
+	color: #ec4445;
+}
+.bt{    
+	/* display: block; */
+    /* margin-bottom: 5px; */
+    /* margin-left: 3%; */
+    /* margin-top: -3px; */
+    overflow: hidden;
+    text-align: center;
+    margin-top: -15px;
+    /* white-space: nowrap;*/ 
+    /* width: 94%; */}
+.bt>span:before{
+	margin-right: 15px;
+	right: 100%;
+}
+.bt>span:after{
+	left: 100%;
+	margin-left: 15px;
+}
+.bu{
+	display: inline;
+	position: relative;
+}
+.bu:before,.bu:after{
+	position: absolute;
+	background-color: #ced0d4;
+	content: "";
+	height: 1px;
+	top:50%;
+	width: 9999px;
+}
+.{}
+/* ========= login area stop here =========     */
+
+/* ===============================================
+========== footer top area start here ============
+==================================================*/
+.footer-top-area{
+	padding: 50px 0px;
+	background-color: #F8F9FA;
+}
+.footer-about{}
+.footer-about a{}
+.footer-about a img{}
+.footer-about p {
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 22px;
+  color: #2b2b2b;
+}
+.widget-icon{
+
+}
+.widget-icon a {
+  border: 1px solid gray;
+  color: #ec4445;
+  display: inline-block;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 8px;
+  position: relative;
+  text-align: center;
+  width: 35px;
+  transition: all 1s;
+}
+.widget-icon a:hover{
+	background-color: #ec4445;
+	color: #fff;
+}
+.widget-icon a i{}
+.footer-service{}		
+.footer-service h3{}		
+.footer-service ul{list-style: outside none none;}		
+.footer-service ul li {
+  border-bottom: 1px solid;
+  margin-bottom: 5px;
+}		
+.footer-service ul li a::before {
+  content: "";
+  font-family: fontawesome;
+  margin-right: 8px;
+  position: relative;
+  top: 0;
+}
+.footer-service ul li a{
+	color: #2b2b2b;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+}		
+.footer-support{}
+.footer-support h3{}
+.footer-support ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.footer-support ul li {
+  border-bottom: 1px solid;
+  margin-bottom: 5px;
+}
+.footer-support ul li a::before {
+  content: "";
+  font-family: fontawesome;
+  margin-right: 8px;
+  position: relative;
+  top: 0;
+}
+.footer-support ul li a{
+	color: #2b2b2b;
+	text-decoration: none;
+	/*text-transform: uppercase;*/
+}
+.footer-contact{}
+.footer-contact h3{}
+.footer-contact ul {
+  list-style: outside none none;
+}
+.footer-contact ul li {
+  padding: 10px 0;
+}
+.footer-contact ul li i {
+  border: 1px solid #2b2b2b;
+  color: #ec4445;
+  font-size: 20px;
+  height: 40px;
+  line-height: 36px;
+  margin-right: 5px;
+  text-align: center;
+  width: 40px;
+}
+/* ========= footer top area stop here =========     */
+/* ===============================================
+============= footer area start here ==============
+==================================================*/
+footer{}
+.copyright,.payment {
+  padding: 15px 0;
+}
+.copyright p{
+	margin: 0px;
+}
+.copyright p a{
+	color: #19a15f;
+	text-decoration: none;
+	transition: all 1s; 
+}
+.copyright p a:hover{
+	color: #ec4445;
+}
+.payment{}
+.payment img{}
+/* ========= footer area stop here =========     */
+/* ---------- admin profile css start here ------- */
+#profile{
+  width: 100%;
+  margin:15px 0px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.demo1 {
+  background-color: darkorange;
+  display: inline-block;
+  font-size: 30px;
+  padding: 30px;
+  margin-right: 15px;
+}
+.active{
+  color:#000;
+}
+.demo1 a{
+  text-decoration: none;
+}
+.demo1 a:hover{
+  color: #fff;
+  transition: 1s all;
+}
+/* ---------- admin profile css End here ------- */
